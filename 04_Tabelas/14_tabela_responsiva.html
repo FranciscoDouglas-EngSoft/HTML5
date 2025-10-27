@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 14 - tabela responsiva</title>
+    <style>
+      .tabela-responsiva {
+        width: 100%;
+        border-collapse: collapse;
+        overflow-x: auto;
+        display: block;
+      }
+      .tabela-responsiva th, .tabela-responsiva td {
+        border: 1px solid #333;
+        padding: 8px 12px;
+        text-align: left;
+      }
+    </style>
+</head>
+<body>
+    <!--
+      Exemplo de tabela responsiva usando CSS.
+      A tabela pode ser rolada horizontalmente em telas pequenas.
+    -->
+    <div style="overflow-x:auto;">
+      <table class="tabela-responsiva">
+        <thead>
+          <tr><th>Nome</th><th>Email</th><th>Telefone</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>João</td><td>joao@email.com</td><td>9999-9999</td></tr>
+          <tr><td>Maria</td><td>maria@email.com</td><td>8888-8888</td></tr>
+        </tbody>
+      </table>
+    </div>
+</body>
+</html>

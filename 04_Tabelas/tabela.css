@@ -1,0 +1,17 @@
+/* Exemplo de CSS para tabela estilizada */
+.tabela-exemplo {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+}
+.tabela-exemplo th, .tabela-exemplo td {
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: center;
+}
+.tabela-exemplo thead {
+    background-color: #f2f2f2;
+}
+.tabela-exemplo tbody tr:nth-child(even) {
+    background-color: #e6f7ff;
+}
